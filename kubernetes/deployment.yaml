@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devops-demo-app
-          image: ghcr.io/shivaraman81/devops-demo-app:11
+          image: ghcr.io/shivaraman81/devops-demo-app:12
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
