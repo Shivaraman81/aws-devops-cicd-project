@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devops-demo-app
-          image: ghcr.io/shivaraman81/devops-demo-app:12
+          image: 920503695898.dkr.ecr.ap-south-1.amazonaws.com/devops-demo-app:17
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
