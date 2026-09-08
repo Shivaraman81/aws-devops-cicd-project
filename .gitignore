@@ -15,4 +15,9 @@ Thumbs.db
 
 # Environment/secrets
 .env
-*.pem
+*.pem.terraform/
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfstate
+*.tfstate.*
