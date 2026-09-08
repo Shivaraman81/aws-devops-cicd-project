@@ -11,7 +11,7 @@ public class Application {
 
     @GetMapping("/")
     public String home() {
-        return "AWS DevOps CI/CD Project is running!";
+        return "AWS DevOps CI/CD Project - Version 2 is running!";
     }
 
     public static void main(String[] args) {
