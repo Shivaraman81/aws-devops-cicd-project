@@ -38,3 +38,20 @@ aws-devops-cicd-project/
 ├── terraform/
 │   └── AWS infrastructure configuration
 └── .gitignore
+
+## Pipeline Evidence
+
+### Jenkins Build #21
+![Jenkins Build #21](01-jenkins-build-21.png)
+
+### Amazon ECR Image
+![Amazon ECR Image](02-ecr-image-21.png)
+
+### Argo CD
+![Argo CD Synced and Healthy](03-argocd-synced-healthy.png)
+
+### Amazon EKS
+![Amazon EKS 3 Nodes Ready](04-eks-3-nodes-ready.png)
+
+### Live Application
+![Live Application](05-live-application.png)
