@@ -11,7 +11,7 @@ public class Application {
 
     @GetMapping("/")
     public String home() {
-        return "DevOps CI/CD Pipeline v2 - Running on AWS EKS";
+        return "DevOps CI/CD Pipeline - Version 20";
     }
 
     public static void main(String[] args) {
